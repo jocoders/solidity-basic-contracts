@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_func",
+						"type": "string"
+					}
+				],
+				"name": "getSelector",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/FunctionSelector.sol": "FunctionSelector"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FunctionSelector.sol": {
+			"keccak256": "0x04b1559b5b6fc13ab01a2f919b1499c1b4b511895a28220c8ba1c75203911b52",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a17e5e148438aa49832bbd40cd343ab47e4b28f8dbc4bd9b05bb004647599527",
+				"dweb:/ipfs/QmQtzSTSHcim1E6H7inztVqw5yqGXSwwUfBRqKtij3F7oG"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address[]",
+						"name": "targets",
+						"type": "address[]"
+					},
+					{
+						"internalType": "bytes[]",
+						"name": "data",
+						"type": "bytes[]"
+					}
+				],
+				"name": "multiCall",
+				"outputs": [
+					{
+						"internalType": "bytes[]",
+						"name": "",
+						"type": "bytes[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/MultiCall.sol": "MultiCall"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/MultiCall.sol": {
+			"keccak256": "0x03262878d27dd03afa29a740af6ba90fcce22d9dc1d287eec5f6ca705728d0f9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4b02465dcb8cb9d101b41f5764002376022fe77c3657ee80c6242e8a5488db7a",
+				"dweb:/ipfs/QmetnfQY5MhsJNTiHMbwLHm1Wc4fTG9tnWgoukStq8uSaG"
+			]
+		}
+	},
+	"version": 1
+}
